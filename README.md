@@ -52,11 +52,11 @@ I did [a full breakdown on my blog here](https://whoisryosuke.com/blog/2024/midi
 
 ## Development
 
-1. Clone the repo: `git clone`
-1. Zip up the folder.
-1. Install in Blender.
-1. Open the plugin code inside your Blender plugin folder.
-1. Edit, Save, Repeat.
+1. Install the addon normally.
+1. Find the plugin folder (check Preferences > Add-ons for the path)
+1. `git clone` inside that folder
+
+> You have to install using the `.zip` because it installs dependencies in the background. If you clone and use "Add from disk" to add the `init.py` from the cloned repo, it won't install deps, which means add-on won't work at all.
 
 ## Publish
 
