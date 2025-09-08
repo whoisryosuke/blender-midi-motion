@@ -5,7 +5,7 @@ bl_info = {
     "version": (0, 0, 9),
     "blender": (2, 80, 0), # not sure if this is right
     "location": "Properties > Output",
-    "warning": "Make sure to press 'Install dependencies' button in the plugin panel before using", # used for warning icon and text in addons panel
+    # "warning": "Make sure to press 'Install dependencies' button in the plugin panel before using", # used for warning icon and text in addons panel
     "wiki_url": "https://github.com/whoisryosuke/blender-midi-keyframes",
     "tracker_url": "",
     "category": "Development"
